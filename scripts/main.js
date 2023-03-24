@@ -2,4 +2,6 @@
 
 // create link for event listener
 
-//
+// import getBands, getVenues, getBookings
+// invoke functions
+// html
