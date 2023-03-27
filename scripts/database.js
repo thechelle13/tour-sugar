@@ -141,8 +141,14 @@ const database = {
 
 // export const getBands, getVenues, getBookings
 
+export const getBookings = () => {
+    return database.bookings.map(booking => ({...booking}))
+}
 
+export const getBands = () => {
+    return database.bands.map(band => ({...band}))
+}
 
-
-
-
+export const getVenues = () => {
+    return database.venues.map(venue => ({...venue}))
+}
