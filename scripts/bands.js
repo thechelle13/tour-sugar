@@ -7,3 +7,4 @@
 //create a click event listener
 
 //export const getBands
+//displayed in a bulleted list
