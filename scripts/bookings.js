@@ -29,7 +29,7 @@ export const Bookings = () => {
 
 // create exportable function to sort data from array in database using for of loop with return result of function logic    //function that pulls data from array located in the database.  by using the .dot I am able to access the information inside the array.
     for (const book of bookings) {
-        html += `<li id="book--${book.id}">${book.name}</li>`
+        html += `<li id="book--${book.id}">${book.name} is performing at ${book.venue} on ${book.date}.</li>`
     }
 
     html += "</ul>"

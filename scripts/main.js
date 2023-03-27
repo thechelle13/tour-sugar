@@ -12,7 +12,7 @@ import { Venues } from "./venues.js"
 const mainContainer = document.querySelector("#container")
 
 const applicationHTML = `
-<h1>Tour Some Sugar On Me</h1>
+<h1 class="title">Tour Some Sugar On Me</h1>
 <article class="bookings">
     <h2>Bookings</h2>
     ${Bookings()}

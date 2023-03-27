@@ -13,4 +13,9 @@
 
 .bookings {
     font-size: 1rem;
+    /* text-align: center; */
+}
+.title {
+    text-align: center;
+    
 }
